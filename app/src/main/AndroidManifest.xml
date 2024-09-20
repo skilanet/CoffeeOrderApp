@@ -14,7 +14,7 @@
         android:theme="@style/Theme.CoffeeOrderApp"
         tools:targetApi="31">
         <activity
-            android:name=".ui.screen.activity.MainActivity"
+            android:name=".main.ui.activity.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.CoffeeOrderApp">
             <intent-filter>

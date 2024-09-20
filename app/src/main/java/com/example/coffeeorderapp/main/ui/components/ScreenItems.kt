@@ -1,4 +1,4 @@
-package com.example.coffeeorderapp.ui.components
+package com.example.coffeeorderapp.main.ui.components
 
 import androidx.annotation.DrawableRes
 import com.example.coffeeorderapp.R

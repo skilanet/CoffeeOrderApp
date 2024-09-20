@@ -1,4 +1,4 @@
-package com.example.coffeeorderapp.ui.components
+package com.example.coffeeorderapp.main.ui.components
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.coffeeorderapp.ui.theme.LightGreen
+import com.example.coffeeorderapp.main.ui.theme.LightGreen
 
 @Composable
 fun BottomNavigationView(navController: NavController = rememberNavController()) {
@@ -32,10 +32,10 @@ fun BottomNavigationView(navController: NavController = rememberNavController())
                 onClick = {},
                 icon = {
                     Icon(
-                        painter = painterResource(item.iconId),
-                        contentDescription = null,
-                        tint = LightGreen,
-                        modifier = Modifier.size(18.dp)
+                            painter = painterResource(item.iconId),
+                            contentDescription = null,
+                            tint = LightGreen,
+                            modifier = Modifier.size(18.dp)
                     )
                 }
             )
