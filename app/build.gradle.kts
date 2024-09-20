@@ -60,6 +60,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(libs.androidx.viewmodel)
+    implementation(libs.androidx.compose.navigation)
 
     //hilt
     implementation(libs.hilt.android)
