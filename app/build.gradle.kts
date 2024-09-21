@@ -67,3 +67,8 @@ dependencies {
     implementation(libs.hilt.compose.navigation)
     ksp(libs.hilt.compiler)
 }
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
